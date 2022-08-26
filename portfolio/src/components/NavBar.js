@@ -31,6 +31,9 @@ function NavBar() {
     setActiveLink(value);
   }
 
+  const openEmail = () => {
+    window.open('mailto:jasondong7777@gmail.com')
+  }
   return (
     <div>
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
@@ -43,7 +46,7 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             <Nav.Link href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
-            <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
+            {/* <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link> */}
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
@@ -51,7 +54,7 @@ function NavBar() {
                 <a href='https://github.com/jasonnmnd' target="_blank" rel="noopener noreferrer"><img src={Nav2} alt="GitHub"></img></a>
                 <a href='https://www.instagram.com/jasonnmnd/' target="_blank" rel="noopener noreferrer"><img src={Nav3} alt="Instagram"></img></a>
             </div>
-            <button className='vvd' onClick={() => console.log("connected")}>Let's Connect</button>
+            <button className='vvd' onClick={() => openEmail()}>Email Me</button>
           </span>
         </Navbar.Collapse>
       </Container>
