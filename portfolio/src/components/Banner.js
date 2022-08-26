@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import { ArrowRightCircle } from 'react-bootstrap-icons'
 import ProfileImage from '../assets/profile-img.png'
+import BackgroundDesktop from '../assets/banner-bg3.png'
+import BackgroundMobile from '../assets/banner-bg2.png'
 
 function Banner() {
 
@@ -45,15 +47,19 @@ function Banner() {
     }
     }
 
+    const imgToUse = window.innerWidth >= 1500 ? BackgroundDesktop : BackgroundMobile; 
+
   return (
-    <section className='banner' id='home'>
+    <section className='banner' id='home' style={{backgroundImage: `url(${imgToUse})`}}>
         <Container>
             <Row className='align-items-top'>
                 <Col xs={12} md={6} xl={7}>
                     {/* <span className='tagline'>Welcome to my website</span> */}
-                    <h1>{`Hi I'm Jason, a `}<span className='wrap'>{text}</span></h1>
-                    <p>I'm a recent graduate of Duke University and currently working as a software engineer living in New York City.</p>
-                    <button onClick={() => console.log("HI")}>Let's Connect <ArrowRightCircle size={25}/></button>
+                    <h1>{`Hi! I'm Jason, a `}<span className='wrap'>{text}</span></h1>
+                    <p>I'm a recent graduate of Duke University and currently a software engineer living in New York City.</p>
+                    <a href="#project" style={{textDecoration: 'none'}}>                    
+                        <button>View Projects <ArrowRightCircle size={25}/></button>
+                    </a>
                 </Col>
 
                 <Col xs={12} md={6} xl={5}>
