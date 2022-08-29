@@ -1,7 +1,8 @@
 import React from 'react'
 import { Col } from 'react-bootstrap'
+import { ArrowRightCircle } from 'react-bootstrap-icons'
 
-function ProjectCard( {title, description, imgURL} ) {
+function ProjectCard( {title, description, imgURL, hasGithubRepo, gitHubURL} ) {
   return (
         <Col size={12} sm={6} md={4}>
             <div className='proj-imgbx'>
@@ -9,6 +10,15 @@ function ProjectCard( {title, description, imgURL} ) {
                 <div className='proj-txtx'>
                     <h4>{title}</h4>
                     <span>{description}</span>
+                    {hasGithubRepo ? 
+                        <div>
+                        <a href={gitHubURL} target="_blank" rel="noreferrer">                    
+                            <button style={{color: '#EAE3D2'}}><u>View GitHub Repo <ArrowRightCircle size={25}/></u></button>
+                        </a>
+                        </div>
+                        :
+                        <div></div>
+                    }
                 </div>
             </div>
         </Col>
