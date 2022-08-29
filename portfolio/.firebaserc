@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "jason-dong-website"
-  }
+    "default": "jason-dong-website",
+    "jason-dong-website": "jason-dong-website"
+  },
+  "targets": {},
+  "etags": {}
 }
