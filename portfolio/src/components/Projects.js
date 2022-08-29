@@ -25,7 +25,9 @@ function Projects() {
         imgURL: HypotheticalTransport,
         hasGithubRepo: true,
         gitHubURL: "https://github.com/jasonnmnd/hypothetical-transportation-cp",
-        projectType: "SCHOOL"
+        projectType: "SCHOOL",
+        hasProjectWriteUp: false,
+        projectURL: ""
     },
     {
         title: "Cryto Tracker",
@@ -33,7 +35,9 @@ function Projects() {
         imgURL: Crypto,
         hasGithubRepo: true,
         gitHubURL: "https://github.com/jasonnmnd/crypto-scraper",
-        projectType: "PERSONAL"
+        projectType: "PERSONAL",
+        hasProjectWriteUp: false,
+        projectURL: ""
     },
     {
         title: "Percepted Augmented Reality Hologram Shift",
@@ -41,7 +45,9 @@ function Projects() {
         imgURL: HologramShift,
         hasGithubRepo: true,
         gitHubURL: "https://github.com/jasonnmnd/HoloMeasure",
-        projectType: "SCHOOL"
+        projectType: "SCHOOL",
+        hasProjectWriteUp: false,
+        projectURL: ""
     },
     {
         title: "iOS Poker Bankroll Tracker",
@@ -49,7 +55,9 @@ function Projects() {
         imgURL: Poker,
         hasGithubRepo: false,
         gitHubURL: "",
-        projectType: "PERSONAL"
+        projectType: "PERSONAL",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/poker.html"
     },
     {
         title: "ADS-B Extension via UAV",
@@ -57,7 +65,9 @@ function Projects() {
         imgURL: ADSB,
         hasGithubRepo: true,
         gitHubURL: "https://github.com/jasonnmnd/Edge-Computing-ADSB",
-        projectType: "WORK"
+        projectType: "WORK",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/adsb.html"
     },
     {
         title: "Java Board Game Collection",
@@ -65,7 +75,9 @@ function Projects() {
         imgURL: BoardGame,
         hasGithubRepo: true,
         gitHubURL: "https://github.com/jason1440049328/Board-Game-Collection-Java",
-        projectType: "SCHOOL"
+        projectType: "SCHOOL",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/cs307.html"
     },
     {
         title: "Verilog & Mips Sludge Runner",
@@ -73,7 +85,9 @@ function Projects() {
         imgURL: SludgeRunner,
         hasGithubRepo: true,
         gitHubURL: "https://github.com/jason1440049328/Sludge-Runner",
-        projectType: "SCHOOL"
+        projectType: "SCHOOL",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/ece350.html"
     },
     {
         title: "Sun Tracking Power Supply",
@@ -81,7 +95,9 @@ function Projects() {
         imgURL: SunTracker,
         hasGithubRepo: false,
         gitHubURL: "",
-        projectType: "WORK"
+        projectType: "WORK",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/suntracker.html"
     },
     {
         title: "Automated Aircraft Damage Inspection and Tape Bubble Study",
@@ -89,7 +105,9 @@ function Projects() {
         imgURL: AFRL,
         hasGithubRepo: false,
         gitHubURL: "",
-        projectType: "WORK"
+        projectType: "WORK",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/tapebubble.html"
     },
     {
         title: "Automatic Skunk Feeder",
@@ -97,7 +115,9 @@ function Projects() {
         imgURL: SkunkFeeder,
         hasGithubRepo: false,
         gitHubURL: "",
-        projectType: "SCHOOL"
+        projectType: "SCHOOL",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/skunkfeeder.html"
     },
     {
         title: "Engineered Microbes to Sense and Destroy Biofilms",
@@ -105,7 +125,9 @@ function Projects() {
         imgURL: IGEM2018,
         hasGithubRepo: false,
         gitHubURL: "",
-        projectType: "WORK"
+        projectType: "WORK",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/igem2018.html"
     },
     {
         title: "Engineered Microbes to Sense and Detect ETEC",
@@ -113,7 +135,9 @@ function Projects() {
         imgURL: IGEM2017,
         hasGithubRepo: false,
         gitHubURL: "",
-        projectType: "WORK"
+        projectType: "WORK",
+        hasProjectWriteUp: true,
+        projectURL: "https://jasonnmnd.github.io/website/igem2017.html"
     }
 
   ]

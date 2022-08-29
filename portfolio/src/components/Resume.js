@@ -56,14 +56,14 @@ const responsive = {
                             <img src={Goldman} alt="gs pic" />
                             <h5>Goldman Sachs</h5>
                             <h6>JUL 2022 - Current</h6>
-                            <p>Full Stack software engineer on GS Select Private Banking Team.</p>
+                            <p>Full Stack Software Engineer on GS Select Private Banking Team.</p>
                         </div>
 
                         <div className='item'>
                             <img src={Duke} alt="duke pic" />
                             <h5>Duke University</h5>
                             <h6>JAN 2021 - MAY 2022</h6>
-                            <p>Teaching assistant for ECE/CS classes and research assistant in I^3T Lab.</p>
+                            <p>Teaching Assistant for ECE/CS classes and research assistant in I^3T Lab.</p>
                         </div>
 
                         <div className='item'>
